@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6)), url(Image/BG.jpg);
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+}
+
+.box {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 600px;
+    background: #ffffff;
+    box-shadow: 0 0 20px 7px rgba(0, 0, 0, 0.4);
+    border-radius: 5px;
+}
+
+#history-val, #output-val {
+    width: 93%;
+    text-align: right;
+    font-size: 35px;
+    padding-top: 20px;
+    color: #333;
+    letter-spacing: 1px;
+}
+
+#output-val {
+    padding-top: 10px;
+}
+
+#history-val {
+    font-size: 22px;
+    opacity: 0.6;
+    padding-top: 25px;
+}
+
+.buttons {
+    margin-left: 30px;
+    margin-top: 50px;
+    position: fixed;
+    top: 120px;
+}
+
+button {
+    background: #efefef;
+    width: 70px;
+    height: 70px;
+    font-size: 20px;
+    margin-right: 17px;
+    margin-bottom: 7px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50%;
+    outline: none;
+}
+
+button:hover {
+    background: #8395A7;
+    color: #ffffff;
+    transition: 0.2s;
+}
+
+.zero {
+    margin-left: 5.7rem;
+}
+
+.equal {
+    background: #E84342;
+    color: #ffffff;
+    font-size: 30px;
+    margin-left: 5.6rem;
+}
+
+.plus {
+    background: #3498DB;
+    color: #ffffff;
+    font-size: 24px;    
+}
+
+.subtract {
+    background: #EEC213;
+    color: #ffffff;
+    font-size: 30px;
+    padding-bottom: 4px;
+}
+
+.divide {
+    background: #EA7773;
+    color: #ffffff;
+    font-size: 24px;
+    margin-left: 5.6rem;
+}
+
+.multi {
+    background: #01CBC6;
+    color: #ffffff;
+    font-size: 24px;
+    padding-top: 5px;
+}
+
+.logo {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+
+.logo img {
+    width: 50px;
+    border: 1px solid #EAF0F1;
+    border-radius: 6px;
+    z-index: 10;
+}
+
+@media (max-width:990px) {
+    .logo {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}
